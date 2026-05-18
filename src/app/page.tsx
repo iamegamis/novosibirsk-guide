@@ -11,8 +11,9 @@ import Blog from "@/components/sections/Blog";
 import Contact from "@/components/sections/Contact";
 import Donate from "@/components/sections/Donate";
 import Reviews from "@/components/sections/Reviews";
+import FAQ from "@/components/sections/FAQ";
 import type { Lang } from "@/lib/types";
-type Section = "home" | "about" | "services" | "blog" | "reviews" | "contact" | "donate";
+type Section = "home" | "about" | "services" | "blog" | "reviews" | "faq" | "contact" | "donate";
 
 const DIVIDER = () => (
   <div className="max-w-7xl mx-auto px-6 lg:px-10">
@@ -117,6 +118,10 @@ export default function Home() {
 
           {activeSection === "reviews" && (
             <Reviews lang={lang} />
+          )}
+
+          {activeSection === "faq" && (
+            <FAQ lang={lang} />
           )}
 
           {activeSection === "contact" && (

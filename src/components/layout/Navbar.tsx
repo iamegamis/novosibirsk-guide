@@ -14,12 +14,12 @@ interface NavProps {
 
 // ── Labels ─────────────────────────────────────────────
 const NAV_LABELS: Record<Lang, Record<string, string>> = {
-  ru: { home: "Главная", about: "Обо мне", services: "Услуги", blog: "Блог", reviews: "Отзывы", contact: "Контакты", donate: "Поддержать" },
-  en: { home: "Home", about: "About", services: "Services", blog: "Blog", reviews: "Reviews", contact: "Contacts", donate: "Support" },
-  uz: { home: "Bosh sahifa", about: "Men haqimda", services: "Xizmatlar", blog: "Blog", reviews: "Sharhlar", contact: "Aloqa", donate: "Qo'llab-quvvatlash" },
-  tj: { home: "Асосӣ", about: "Дар бораи ман", services: "Хидматҳо", blog: "Блог", reviews: "Шарҳҳо", contact: "Тамос", donate: "Дастгирӣ" },
-  ky: { home: "Башкы бет", about: "Мен жөнүндө", services: "Кызматтар", blog: "Блог", reviews: "Пикирлер", contact: "Байланыш", donate: "Колдоо" },
-  kz: { home: "Басты бет", about: "Мен туралы", services: "Қызметтер", blog: "Блог", reviews: "Пікірлер", contact: "Байланыс", donate: "Қолдау" },
+  ru: { home: "Главная", about: "Обо мне", services: "Услуги", blog: "Блог", reviews: "Отзывы", faq: "FAQ", contact: "Контакты", donate: "Поддержать" },
+  en: { home: "Home", about: "About", services: "Services", blog: "Blog", reviews: "Reviews", faq: "FAQ", contact: "Contacts", donate: "Support" },
+  uz: { home: "Bosh sahifa", about: "Men haqimda", services: "Xizmatlar", blog: "Blog", reviews: "Sharhlar", faq: "FAQ", contact: "Aloqa", donate: "Qo'llab-quvvatlash" },
+  tj: { home: "Асосӣ", about: "Дар бораи ман", services: "Хидматҳо", blog: "Блог", reviews: "Шарҳҳо", faq: "FAQ", contact: "Тамос", donate: "Дастгирӣ" },
+  ky: { home: "Башкы бет", about: "Мен жөнүндө", services: "Кызматтар", blog: "Блог", reviews: "Пикирлер", faq: "FAQ", contact: "Байланыш", donate: "Колдоо" },
+  kz: { home: "Басты бет", about: "Мен туралы", services: "Қызметтер", blog: "Блог", reviews: "Пікірлер", faq: "FAQ", contact: "Байланыс", donate: "Қолдау" },
 };
 
 const LANGS: { code: Lang; label: string }[] = [
@@ -31,7 +31,7 @@ const LANGS: { code: Lang; label: string }[] = [
   { code: "kz", label: "KZ" },
 ];
 
-const NAV_SECTIONS = ["home", "about", "services", "blog", "reviews", "contact", "donate"];
+const NAV_SECTIONS = ["home", "about", "services", "blog", "reviews", "faq", "contact", "donate"];
 
 // ── Component ──────────────────────────────────────────
 export default function Navbar({ lang, setLang, activeSection, setActiveSection }: NavProps) {
