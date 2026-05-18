@@ -66,8 +66,18 @@ export const PACKAGE = {
 // --- Услуги и цены ---
 export const SERVICES = [
   {
-    id: "adaptation",
+    id: "admission",
     num: "01",
+    icon: "🎓",
+    price: 1500,
+    currency: "₽",
+    popular: false,
+    title: { ru: "Консультация для поступающих", en: "Admission Consultation", uz: "Kiruvchilar uchun maslahat", tj: "Машварат барои дохилшавандагон", ky: "Кирүүчүлөр үчүн кеңеш", kz: "Түсушілерге кеңес" },
+    desc: { ru: "Помогу разобраться с поступлением в российский вуз: квота, документы, сроки, подводные камни. Всё по делу.", en: "I'll help you navigate enrolling in a Russian university: quota, documents, deadlines, pitfalls. All the essentials.", uz: "Rossiya universitetiga kirish bo'yicha yordam beraman: kvota, hujjatlar, muddatlar.", tj: "Кӯмак дар дохил шудан ба донишгоҳи Русия: квота, ҳуҷҷатҳо, мӯҳлатҳо.", ky: "Россия университетине кирүүдө жардам: квота, документтер, мөөнөттөр.", kz: "Ресей университетіне түсуде көмек: квота, құжаттар, мерзімдер." },
+  },
+  {
+    id: "adaptation",
+    num: "02",
     icon: "🏠",
     price: 1500,
     currency: "₽",
@@ -77,9 +87,9 @@ export const SERVICES = [
   },
   {
     id: "choice",
-    num: "02",
+    num: "03",
     icon: "🗺️",
-    price: 1000,
+    price: 1500,
     currency: "₽",
     popular: false,
     title: { ru: "Выбор города и вуза", en: "City & University Selection", uz: "Shahar va universitet tanlash", tj: "Интихоби шаҳр ва донишгоҳ", ky: "Шаар жана университет тандоо", kz: "Қала және университет таңдау" },
