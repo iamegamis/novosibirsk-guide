@@ -1,7 +1,7 @@
 import { ImageResponse } from "next/og";
 
 export const runtime = "edge";
-export const alt = "Novosibirsk Guide — Исломжон";
+export const alt = "MenBilanBirga — Исломжон";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -87,8 +87,8 @@ export default function OGImage() {
               display: "flex",
             }}
           >
-            Novosibirsk
-            <span style={{ color: "#C9A84C" }}>Guide</span>
+            MenBilan
+            <span style={{ color: "#C9A84C" }}>Birga</span>
           </div>
 
           <div

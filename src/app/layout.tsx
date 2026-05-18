@@ -27,8 +27,8 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: {
-    default: `${SITE_CONFIG.name} — Новосибирск | Гид для иностранных студентов`,
-    template: `%s | ${SITE_CONFIG.name}`,
+    default: `MenBilanBirga — Гид для иностранных студентов`,
+    template: `%s | MenBilanBirga`,
   },
   description: SITE_CONFIG.description.ru,
   keywords: [

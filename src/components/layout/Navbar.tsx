@@ -68,7 +68,7 @@ export default function Navbar({ lang, setLang, activeSection, setActiveSection 
             onClick={() => handleNav("home")}
             className="font-serif text-[18px] font-bold tracking-wide text-[var(--gold)] hover:text-[var(--gold-light)] transition-colors"
           >
-            Novosibirsk<span className="text-[var(--text)] opacity-60">Guide</span>
+            MenBilan<span className="text-[var(--text)] opacity-60">Birga</span>
           </button>
 
           {/* Desktop nav */}
