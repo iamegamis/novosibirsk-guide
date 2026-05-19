@@ -46,7 +46,7 @@ export const SITE_CONFIG = {
   },
 
   // --- Соцсети для Open Graph ---
-  url: "https://your-domain.ru",
+  url: "https://novosibirsk-guide.vercel.app",
   ogImage: "/opengraph-image",
 
   // --- Статистика (hero секция) ---
