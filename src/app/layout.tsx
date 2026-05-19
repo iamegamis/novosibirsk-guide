@@ -64,6 +64,9 @@ export const metadata: Metadata = {
     follow: true,
     googleBot: { index: true, follow: true, "max-image-preview": "large" },
   },
+  verification: {
+    google: "_nCNB9jqvLlFUo_xe3-Ck5hA3oTfImZNX0Rk0MSmkms",
+  },
   metadataBase: new URL(SITE_CONFIG.url),
 };
 
